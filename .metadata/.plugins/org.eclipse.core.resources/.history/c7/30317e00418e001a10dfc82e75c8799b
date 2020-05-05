@@ -1,0 +1,44 @@
+#listaus {
+	font-family: "Trebuchet MS", Arial, sans-serif;
+	border: 1px solid black;
+	border-collapse: collapse;
+	width: 40%;
+}
+
+ #tiedot table	 {
+	font-family: "Trebuchet MS", Arial, sans-serif;
+	border: 1px solid black;
+	border-collapse: collapse;
+	width: 60%;
+}
+
+#listaus thead th, #listaus tbody td, #tiedot thead th, #tiedot tbody td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#listaus thead th, #tiedot thead th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	background-color: #ffe6ff;
+	color: black;	
+}
+
+#listaus tbody tr:nth-child(even){
+	background-color: #f2f2f2;}
+
+#listaus tbody tr:hover {background-color: #ddd;}
+
+#tiedot tbody tr:hover {background-color: #ddd;}
+
+.oikealle {
+	text-align: right;
+}
+
+.vasemmalle {
+	text-align: left;
+}
+
+#uusiAsiakas, #takaisin {
+	cursor: pointer;
+}

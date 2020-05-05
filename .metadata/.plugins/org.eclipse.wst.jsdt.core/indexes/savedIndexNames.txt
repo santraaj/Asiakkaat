@@ -1,8 +1,8 @@
 INDEX VERSION 1.4+C:\Users\asran\Desktop\IT-tradenomi\Ohjelmointi 2\Viikko 4\Asiakkaat\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
 3766397206.index
-4082449149.index
-2391964621.index
 374088388.index
+2391964621.index
+4082449149.index
 2322157366.index
 2993656568.index
 928161493.index
