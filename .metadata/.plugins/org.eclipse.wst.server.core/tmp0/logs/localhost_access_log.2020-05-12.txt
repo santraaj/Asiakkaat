@@ -1,0 +1,8 @@
+127.0.0.1 - - [12/May/2020:00:36:13 +0300] "DELETE /Asiakkaat/asiakkaat/11 HTTP/1.1" 200 16
+127.0.0.1 - - [12/May/2020:00:36:15 +0300] "GET /Asiakkaat/asiakkaat/ HTTP/1.1" 200 334
+127.0.0.1 - - [12/May/2020:00:36:17 +0300] "GET /Asiakkaat/lisaaasiakas.jsp HTTP/1.1" 200 2598
+127.0.0.1 - - [12/May/2020:00:36:17 +0300] "GET /Asiakkaat/css/main.css HTTP/1.1" 200 889
+127.0.0.1 - - [12/May/2020:00:36:17 +0300] "GET /favicon.ico HTTP/1.1" 404 720
+127.0.0.1 - - [12/May/2020:00:36:32 +0300] "GET /Asiakkaat/listaaasiakkaat.jsp HTTP/1.1" 200 2634
+127.0.0.1 - - [12/May/2020:00:36:32 +0300] "GET /Asiakkaat/css/main.css HTTP/1.1" 304 -
+127.0.0.1 - - [12/May/2020:00:36:32 +0300] "GET /Asiakkaat/asiakkaat/ HTTP/1.1" 200 334

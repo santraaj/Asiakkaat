@@ -18,11 +18,11 @@
 				<th colspan="5" class="oikealle"><span id="takaisin">Takaisin listaukseen</span></th>
 			</tr>
 			<tr>
-				<th>Etunimi</th>
-				<th>Sukunimi</th>
-				<th>Puhelin</th>
-				<th>Sposti</th>
-				<th></th>
+				<th class = "vasemmalle">Etunimi</th>
+				<th class = "vasemmalle">Sukunimi</th>
+				<th class = "vasemmalle">Puhelin</th>
+				<th class = "vasemmalle">Sposti</th>
+				<th class = "vasemmalle"></th>
 			</tr>
 		</thead>
 		<tbody>
@@ -60,7 +60,7 @@ $(document).ready(function() {
 			},	
 			sposti:  {
 				required: true,
-				minlength: 7,
+				email: true
 			}	
 		},
 		messages: {
@@ -85,6 +85,8 @@ $(document).ready(function() {
 			lisaaTiedot();
 		}		
 	}); 	
+	
+	$("#etunimi").focus();
 });
 
 function lisaaTiedot() {	
